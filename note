@@ -1,0 +1,135 @@
+[context - 1659]: ** new session **
+[context - 1659]: t.d.g:gqodnl
+[context - 1659]: s.d.g:kjh507
+[context - 1659]: p.n:name p.v:Fri Feb 07 2020 21:21:33 GMT-0800 (Pacific Standard Time)
+[context - 1659]: p.n:test p.v:if it's nice outside today then I'm walking with a red balloon
+[context - 1659]: s.fc:class cXocLhrT_describes.Fri Feb 07 2020 21:21:33 GMT-0800 (Pacific Standard Time)
+[context - 1659]: p.n:name p.v:today
+[context - 1659]: p.n:outside p.v:nice
+[context - 1659]: t.fc:class cXocLhrT_describes.today
+[context - 1659]: dsl::#/ steps usage when then result
+[context - 1659]: [keyword]if =
+[context - 1659]: [when]it's {cond} {env} {period}=cXocLhrT_describes.{period}({env} == '{cond}')
+[context - 1659]: [then]I'm {vrb} {prp} a {adj} {obj};=insert(new javassist.ClassPool(true).makeClass('caXiFgTh_{vrb}_{prp}.{obj}').toClass().getConstructor().newInstance()); sse.Push.main('kjh507_{vrb}_{prp}|r|{adj}|a|color|n|{obj}|d');
+[context - 1659]: [when]I'm {vrb} {prp} a {adj} {obj}=cXocLhrT_{vrb}_{prp}.{obj}(color == '{adj}')
+[context - 1659]: [then]it's {adj} {env} {period};=insert(new javassist.ClassPool(true).makeClass('caXiFgTh_describes.{period}').toClass().getConstructor().newInstance()); sse.Push.main('kjh507_{adj}|a|{env}|n|{period}|d');
+[context - 1659]: rule::import sse.Push;
+[context - 1659]: rule 'cXocLhrT_test' salience 10
+[context - 1659]: when
+[context - 1659]: if it's nice outside today
+[context - 1659]: then
+[context - 1659]: I'm walking with a red balloon;
+[context - 1659]: end
+
+[context - 1659]:    2  rule 'cXocLhrT_test' salience 10
+[context - 1659]:    3  when
+[context - 1659]:    4   cXocLhrT_describes.today(outside == 'nice')
+[context - 1659]:    5  then
+[context - 1659]:    6  insert(new javassist.ClassPool(true).makeClass('caXiFgTh_walking_with.balloon').toClass().getConstructor().newInstance()); sse.Push.main('kjh507_walking_with|r|red|a|color|n|balloon|d');
+[context - 1659]:    7  end
+
+
+[context - 1659]: ** new session **
+[context - 1659]: t.d.g:gqodnl
+[context - 1659]: s.d.g:kjh507
+[context - 1659]: t.d.g:ue1cge
+[context - 1659]: t.d.g:j810c2
+[context - 1659]: p.n:name p.v:balloon
+[context - 1659]: p.n:color p.v:red
+[context - 1659]: t.fc:class cgQnChZK_walking_with.balloon
+[context - 1659]: p.n:name p.v:Sun Feb 09 2020 08:10:19 GMT-0800 (Pacific Standard Time)
+[context - 1659]: t.fc:class cgQnChZK_describes.Sun Feb 09 2020 08:10:19 GMT-0800 (Pacific Standard Time)
+[context - 1659]: p.n:name p.v:Fri Feb 07 2020 21:21:33 GMT-0800 (Pacific Standard Time)
+[context - 1659]: p.n:test p.v:if it's nice outside today then I'm walking with a red balloon
+[context - 1659]: s.fc:class cgQnChZK_describes.Fri Feb 07 2020 21:21:33 GMT-0800 (Pacific Standard Time)
+[context - 1659]: p.n:name p.v:today
+[context - 1659]: p.n:outside p.v:nice
+[context - 1659]: t.fc:class cgQnChZK_describes.today
+[context - 1659]: dsl::#/ steps usage when then result
+[context - 1659]: [keyword]if =
+[context - 1659]: [when]it's {cond} {env} {period}=cgQnChZK_describes.{period}({env} == '{cond}')
+[context - 1659]: [then]I'm {vrb} {prp} a {adj} {obj};=insert(new javassist.ClassPool(true).makeClass('cijYTpjW_{vrb}_{prp}.{obj}').toClass().getConstructor().newInstance()); sse.Push.main('kjh507_{vrb}_{prp}|r|{adj}|a|color|n|{obj}|d');
+[context - 1659]: [when]I'm {vrb} {prp} a {adj} {obj}=cgQnChZK_{vrb}_{prp}.{obj}(color == '{adj}')
+[context - 1659]: [then]it's {adj} {env} {period};=insert(new javassist.ClassPool(true).makeClass('cijYTpjW_describes.{period}').toClass().getConstructor().newInstance()); sse.Push.main('kjh507_{adj}|a|{env}|n|{period}|d');
+[context - 1659]: rule::import sse.Push;
+[context - 1659]: rule 'cgQnChZK_test' salience 10
+[context - 1659]: when
+[context - 1659]: if it's nice outside today
+[context - 1659]: then
+[context - 1659]: I'm walking with a red balloon;
+[context - 1659]: end
+
+[context - 1659]:    2  rule 'cgQnChZK_test' salience 10
+[context - 1659]:    3  when
+[context - 1659]:    4   cgQnChZK_describes.today(outside == 'nice')
+[context - 1659]:    5  then
+[context - 1659]:    6  insert(new javassist.ClassPool(true).makeClass('cijYTpjW_walking_with.balloon').toClass().getConstructor().newInstance()); sse.Push.main('kjh507_walking_with|r|red|a|color|n|balloon|d');
+[context - 1659]:    7  end
+
+
+[context - 1659]: ** new session **
+[context - 1659]: t.d.g:51i0l7
+[context - 1659]: s.d.g:kjh507
+[context - 1659]: t.d.g:gqodnl
+[context - 1659]: p.n:name p.v:today
+[context - 1659]: p.n:outside p.v:nice
+[context - 1659]: t.fc:class c2UCaAAW_describes.today
+[context - 1659]: t.d.g:ue1cge
+[context - 1659]: t.d.g:j810c2
+[context - 1659]: p.n:name p.v:balloon
+[context - 1659]: p.n:color p.v:red
+[context - 1659]: t.fc:class c2UCaAAW_walking_with.balloon
+[context - 1659]: p.n:name p.v:Sun Feb 09 2020 08:10:19 GMT-0800 (Pacific Standard Time)
+[context - 1659]: t.fc:class c2UCaAAW_describes.Sun Feb 09 2020 08:10:19 GMT-0800 (Pacific Standard Time)
+[context - 1659]: p.n:name p.v:Fri Feb 07 2020 21:21:33 GMT-0800 (Pacific Standard Time)
+[context - 1659]: p.n:test p.v:if it's nice outside today then I'm walking with a red balloon
+[context - 1659]: s.fc:class c2UCaAAW_describes.Fri Feb 07 2020 21:21:33 GMT-0800 (Pacific Standard Time)
+[context - 1659]: t.d.g:i1cwol
+[context - 1659]: p.n:name p.v:balloon
+[context - 1659]: p.n:color p.v:red
+
+
+[context - 1659]: [qtp1159114532-52] WARN io.javalin.Javalin - Uncaught exception
+[context - 1659]: java.lang.RuntimeException: c2UCaAAW_walking_with.balloon: frozen class (cannot edit)
+[context - 1659]: 	at javassist.ClassPool.checkNotFrozen(ClassPool.java:595)
+[context - 1659]: 	at javassist.CtClassType.setName(CtClassType.java:368)
+[context - 1659]: 	at Reason$Descriptor.reasonTarget(Reason.java:485)
+[context - 1659]: 	at Reason$Descriptor.reasonTarget(Reason.java:448)
+[context - 1659]: 	at Reason$Descriptor.reason(Reason.java:534)
+[context - 1659]: 	at Reason.lambda$run$1(Reason.java:82)
+
+
+Thanks for sending, @tipsy. I'm using something similar:
+```java
+private` static Map<String, SseClient> clients = new ConcurrentHashMap<String, SseClient>();
+```
+I've been trying a few things to diagnose and noticed the following:
+
+1. messages sent/ acknowledged from remote client/ no message handling, though
+```
+[context - 64081]: [qtp494586676-18] INFO io.javalin.Javalin - JAVALIN REQUEST DEBUG LOG:
+[context - 64081]: Request: POST [/push]
+[context - 64081]:     Matching endpoint-handlers: [BEFORE=*, POST=/push]
+[context - 64081]:     Headers: {User-Agent=unirest-java/3.1.00, Connection=keep-alive, Host=192.168.1.2:4567, Accept-Encoding=gzip, Content-Length=57, Content-Type=text/plain; charset=UTF-8}
+[context - 64081]:     Cookies: {}
+[context - 64081]:     Body: {"value":"3sg94v_walking_with|r|red|a|color|n|balloon|d"}
+[context - 64081]:     QueryString: null
+[context - 64081]:     QueryParams: {}
+[context - 64081]:     FormParams: {{"value":"3sg94v_walking_with|r|red|a|color|n|balloon|d"}=[]}
+[context - 64081]: Response: [200], execution took 1.08 ms
+[context - 64081]:     Headers: {Connection=keep-alive, Server=Javalin, Cache-Control=no-cache, ACCESS-CONTROL-ALLOW-ORIGIN=*, Date=Fri, 06 Mar 2020 05:42:49 GMT, Content-Type=text/event-stream}
+[context - 64081]:     Body is 6 bytes (starts on next line):
+[context - 64081]:     pushed
+[context - 64081]: ----------------------------------------------------------------------------------
+```
+I've added some header values - don't seem to affect.
+
+2. If I stop the server process, then the remote connections flush and I get the desired response.
+
+3. I using different macOS versions on server(high sierra)/ client(mojave), but don't think this is affecting.
+
+Could client caching be contributing? Is a flushing mechanism possible? Can you think of any options to add/ diagnose?
+
+Thanks
+
+if (java.lang.Class.forName(name, false, pool.getClassLoader() != null) 				ksession.update(ksession.getFactHandle(fo), fo);

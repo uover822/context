@@ -1,0 +1,8 @@
+[when] {NN0} {VB0} {NN1}=crndm_describes.{NN0}() crndm_describes.{NN1}()
+[then]{NN0} {VB0} {JJ0};= insert(new javassist.ClassPool(true).makeClass('crndm_{VB0}_{JJ0}.{NN0}()').toClass().getConstructor().newInstance()); sse.Push.main('cid+id_|{VB0}|r|{JJ0}|a|{NN0}|d|');
+[when] {NN0} {VB0} {VB1} {NN1}=crndm_describes.{NN0}() crndm_{VB0}_{VB1}.{NN1}()
+[then]{NN0} {VB0} {VB1} a {RB0} {NN1};= insert(new javassist.ClassPool(true).makeClass('crndm_{VB0}_{VB1}_a_{RB0}.{NN1}()').toClass().getConstructor().newInstance()); sse.Push.main('cid+id_|{VB0}_{VB1}|r|{RB0}|a|type|n|{NN1}|d');
+[when] {NN0} {VB0} {VB1} a {RB0} {NN1} {VB2} {IN1} {NN2} and a {NN3} {IN2} {JJ0}=crndm_describes.{NN0}() crndm_{VB0}_{VB1}.{NN1}(type == '{RB0}') crndm_{VB2}_{IN1}.{NN2}() crndm_describes.{NN3}() crndm_{IN2}_{JJ0}.{NN3}()
+[then]{NN0} {VB0} {JJ0};= insert(new javassist.ClassPool(true).makeClass('crndm_{VB0}_{JJ0}.{NN0}()').toClass().getConstructor().newInstance()); sse.Push.main('cid+id_|{VB0}|r|{JJ0}|a|{NN0}|d|');
+[when] {NN0} {VB0} {JJ0} {RB0} {NN1}=crndm_describes.{NN0}() crndm_describes.{NN1}({RB0} == '{JJ0}') 
+[then]{NN0} {VB0} {VB1} {IN0} a {JJ0} {NN1};= insert(new javassist.ClassPool(true).makeClass('crndm_{VB0}_{VB1}_{IN0}_a_{JJ0}.{NN1}()').toClass().getConstructor().newInstance()); sse.Push.main('cid+id_|{VB0}_{VB1} {IN0}|r|{JJ0}|a|type|n|{NN1}|d');

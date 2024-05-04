@@ -1,0 +1,18 @@
+/*
+function boolean precedes (Object one, Object two, Object three, Object four) {
+  if (ksession.getFactHandle(one) && two() || three() && four())
+  return true;
+  else
+  return false;
+}
+*/
+/*
+query precedes (Object one, Object two, Object three, Object four)
+  one() and two()
+  or
+  three() and four()
+end
+*/
+rule 'show' salience 8
+     when $o:Object() then System.out.println($o);
+end

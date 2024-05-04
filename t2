@@ -1,0 +1,8 @@
+0|context | [qtp423031029-48] INFO org.drools.drl.parser.lang.dsl.DefaultExpander -    1  import sse.*;
+0|context |    2  rule 'cphhoWIs_gen' salience 10
+0|context |    3  when
+0|context |    4  cphhoWIs_describes.this() cphhoWIs_describes.that()
+0|context |    5  then
+0|context |    6  insert(new javassist.ClassPool(true).makeClass('cphhoWIs_is_neat.it()').toClass().getConstructor().newInstance()); sse.Push.main('e8op4hpvlmcrb9px+y6ubj5_|is|r|neat|a|it|d|');
+0|context |    7  end
+0|context | [qtp423031029-48] INFO org.drools.drl.parser.lang.dsl.DefaultExpander - =============================

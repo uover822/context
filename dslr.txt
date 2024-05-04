@@ -1,0 +1,28 @@
+import sse.*;
+rule 'crndm_gen' salience 10
+when
+if this precedes that
+then
+it is neat;
+end
+import sse.*;
+rule 'crndm_gen' salience 10
+when
+if I am having ice_cream
+then
+I am eating a hot_fudge sundae;
+end
+import sse.*;
+rule 'crndm_gen' salience 10
+when
+if I am eating a hot_fudge sundae topped with almonds and a maraschino_cherry on top
+then
+life is good;
+end
+import sse.*;
+rule 'crndm_gen' salience 10
+when
+if it is nice outside today
+then
+I am walking with a red balloon;
+end

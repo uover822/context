@@ -1,0 +1,7 @@
+0|context | dslr::import sse.*;
+0|context | rule 'c89mYjmM_gen' salience 10
+0|context | when
+0|context | if it is nice outside today
+0|context | then
+0|context | I am walking with a red balloon;
+0|context | end

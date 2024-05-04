@@ -1,0 +1,8 @@
+0|context | [qtp423031029-37] INFO org.drools.drl.parser.lang.dsl.DefaultExpander -    1  import sse.*;
+0|context |    2  rule 'cXpXYEgo_gen' salience 10
+0|context |    3  when
+0|context |    4  cXpXYEgo_describes.it() cXpXYEgo_describes.today(outside == 'nice')
+0|context |    5  then
+0|context |    6  insert(new javassist.ClassPool(true).makeClass('cXpXYEgo_am_walking_with_a_red.balloon()').toClass().getConstructor().newInstance()); sse.Push.main('e8op4hpvlmcrap9k+v917mm_|am_walking  with|r|red|a|type|n|balloon|d');
+0|context |    7  end
+0|context | [qtp423031029-37] INFO org.drools.drl.parser.lang.dsl.DefaultExpander - =============================

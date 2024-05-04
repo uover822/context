@@ -1,0 +1,2 @@
+0|context | dslp:[when] {NN0} {VB0} {JJ0} {RB0} {NN1}=cFuIw6Aq_describes.{NN0}() cFuIw6Aq_describes.{NN1}({RB0} == '{JJ0}') 
+0|context | [then]{NN0} {VB0} {VB1} {IN0} a {JJ0} {NN1};= insert(new javassist.ClassPool(true).makeClass('cFuIw6Aq_{VB0}_{VB1}_{IN0}_a_{JJ0}.{NN1}()').toClass().getConstructor().newInstance()); sse.Push.main('e8op4hkllm3yldyw+3sdext_|{VB0}_{VB1} {IN0}|r|{JJ0}|a|type|n|{NN1}|d');
